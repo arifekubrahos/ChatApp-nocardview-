@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.aloko.chatappnocardview.LogIn">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@mipmap/ic_launcher_round" />
+
+    <EditText
+        android:id="@+id/logEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="write your e-mail"
+        android:inputType="textEmailAddress"
+        android:textColorLink="@android:color/holo_blue_dark" />
+
+    <EditText
+        android:id="@+id/logPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="write your password"
+        android:inputType="textPassword"
+        android:textColorLink="@android:color/holo_blue_dark" />
+
+    <Button
+        android:id="@+id/logButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorPrimary"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Kayıt Ol"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/signText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kayıtlı Değil Misin?"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_light" />
+
+
+</LinearLayout>
